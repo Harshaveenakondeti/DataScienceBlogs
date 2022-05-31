@@ -1,2 +1,2 @@
 # DataScienceBlogs
-My small articles on data science topics
+My articles on data science topics
