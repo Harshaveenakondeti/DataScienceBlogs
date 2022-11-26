@@ -1,0 +1,13 @@
+Shape Files are nothing but for storing Geographic information data.It is in vector data format.
+Geographic features in shape file can be represented by points, lines, or polygons(areas). 
+All shape files extensions may differ but name remains same.
+It usually consists of six files. 
+There are 3 minimum files which are dbf, shx, shp. Here dbf file is database file to store attributes.We cannot directly import shape file in Power bi Desktop. 
+We need Topojson format or we need to convert to csv file before importing to Power BI.
+To converting to Topojson file, we have many tools like mapshaper.In mapshaper, we can convert projections.
+When we want to export to csv, we need to open dbf file in Microsoft Excel and save file in csv format. Then we can import to Power BI Desktop. 
+To use csv format, We should have longitude and lattitude or any region attributes should present.
+As shape map is a preview feature, First we need to go to options and settings, go to preview and select shape map visual. And we need to restart session to apply.
+we can select shape map visual in canvas, after that we can select attributes. In format we can select shape of map for any particular country.
+If we want customised map,we need topojson file can be uploaded in custom map.
+By Selecting 3 dots we can edit map visual. This is the simple way of creating Shape map Visual in Power bI usig Shape File.
